@@ -1,0 +1,7 @@
+importFrom("stats", "na.omit", "pnorm", "quantile", "sd", "runif")
+importFrom("reshape", "melt")
+importFrom("grid", "grobName")
+importFrom("dplyr", "arrange", "group_by", "mutate", "%>%")
+import("ggplot2")
+
+export(assign_observed_data, cum_dev_rate, get_cycle, get_total_info, phen_model_forecast, phen_model_gen2, phen_model, plot_phen_forecast, plot_phen_model, sensitivity, summary_sensitivity, boxplot_sensitivity, cdl_check)
